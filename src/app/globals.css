@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+input {
+  border: 1px solid black;
+  padding: 0.5em 1em;
+}
+
+button {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  background: #000 !important;
+  padding: 0.5em 1em;
+  color: white;
+}
