@@ -9,7 +9,12 @@ export default function Home() {
     e.preventDefault();
 
     try {
-      const response = await fetch("https://cat-fact.herokuapp.com/facts");
+      const response = await fetch("https://cat-fact.herokuapp.com/facts", {
+        method: "GET",
+        headers: {
+          Origin: "https://gorgeous-chebakia-9c201b.netlify.app/",
+        },
+      });
       console.log(response);
     } catch (error) {
       console.log(error);
