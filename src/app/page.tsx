@@ -11,6 +11,7 @@ export default function Home() {
     try {
       const response = await fetch("https://cat-fact.herokuapp.com/facts", {
         method: "GET",
+        mode: "no-cors",
         headers: {
           Origin: "https://gorgeous-chebakia-9c201b.netlify.app/",
         },
