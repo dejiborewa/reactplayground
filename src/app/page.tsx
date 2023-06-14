@@ -13,7 +13,7 @@ export default function Home() {
         method: "GET",
         mode: "no-cors",
         headers: {
-          Origin: "https://gorgeous-chebakia-9c201b.netlify.app/",
+          Origin: "https://reactplayground-dj.netlify.app/",
         },
       });
       console.log(response);
